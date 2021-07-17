@@ -100,20 +100,16 @@ export default {
         value: "restaurant_name",
          groupable: false,
       },
-      { text: "Owner / PIC", value: "fullname",  groupable: false, },
-      { text: "Address", value: "address",  groupable: false, },
-      { text: "Contact", value: "phone",  groupable: false, },
+      { text: "Owner / PIC", value: "fullname",  groupable: false, sortable: false, },
+      { text: "Address", value: "address",  groupable: false, sortable: false, },
+      { text: "Contact", value: "phone",  groupable: false, sortable: false, },
       { text: "Verification Status", value: "verified" },
       { text: "Actions", value: "actions", sortable: false,  groupable: false, }
     ],
     mitra: [],
     editedIndex: -1,
     editedItem: {
-      restaurant_name: "",
-      address: "",
-      fat: 0,
-      carbs: 0,
-      protein: 0,
+      
     },
 
   }),
