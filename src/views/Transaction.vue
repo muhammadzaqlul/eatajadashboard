@@ -25,7 +25,7 @@
         <div class="">
 
           <router-link :to="`/DetailsMenu/${item.order_id}`">
-   
+
         <v-btn
           color="orange lighten-1"
           dark
@@ -35,7 +35,7 @@
           </router-link>
         </div>
         </template>
-      
+
       </v-data-table>
       </v-card>
     </div>
@@ -89,7 +89,6 @@ export default {
       "https://api.eataja.com/api/mitra/get-all-order-for-mitra"
     );
     this.order = response.data.data;
-    console.log(this.order);
   },
 };
 </script>
